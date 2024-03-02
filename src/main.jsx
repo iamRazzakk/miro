@@ -8,7 +8,7 @@ import myCreatedRouter from './Router/Router'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='md:w-[1020px] lg:w-[1280px]'>
+    <div className='md:w-[1020px] mx-auto lg:w-[1280px]'>
       {/* <QueryClientProvider client={QueryClient}> */}
         <RouterProvider router={myCreatedRouter}>
         </RouterProvider>

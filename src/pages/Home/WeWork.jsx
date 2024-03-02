@@ -2,11 +2,11 @@ import weWorkImg from '../../assets/woman-working-on-laptop.jpg';
 
 const WeWork = () => {
     return (
-        <div className="">
-            <div className='md:pl-14  relative'>
-                <img className="h-[450px] w-full object-cover" src={weWorkImg} alt="" />
+        <div className="md:mt-32">
+            <div className='  relative'>
+                <img className="h-[450px] w-full object-cover rounded-2xl" src={weWorkImg} alt="" />
             </div>
-            <div className='absolute md:-mt-64 md:ml-[750px]'>
+            <div className='absolute md:-mt-64 md:ml-[750px] text-center'>
                 <h1 className='text-[#050038] text-3xl font-bold md:mb-2'>The Ways We Work</h1>
                 <p className='text-xl text-[#050038] md:mb-2'>
                     How has our relationship with work changed?

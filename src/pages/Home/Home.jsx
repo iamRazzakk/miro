@@ -1,6 +1,8 @@
+import BuiltForAllKinds from "./BuiltForAllKinds";
 import Collaborate from "./Collaborate";
 import Connect from "./Connect";
 import TrustedUser from "./TrustedUser";
+import WayYouWork from "./WayYouWork";
 import WeWork from "./WeWork";
 import WorkTogether from "./WorkTogether";
 
@@ -16,6 +18,8 @@ const Home = () => {
             </div>
             <Connect></Connect>
             <WeWork></WeWork>
+            <WayYouWork></WayYouWork>
+            <BuiltForAllKinds></BuiltForAllKinds>
         </div>
 
     );
