@@ -9,7 +9,9 @@ const Home = () => {
             <h1 className="text-5xl font-bold">This is from home</h1>
             <TrustedUser></TrustedUser>
             <Collaborate></Collaborate>
-            <WorkTogether></WorkTogether>
+            <div className="md:w-[1020px]">
+                <WorkTogether></WorkTogether>
+            </div>
         </div>
 
     );
