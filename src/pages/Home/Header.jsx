@@ -4,7 +4,7 @@ import Image4 from '../../assets/image4.png'
 const Header = () => {
 
     return (
-        <div className="flex">
+        <div className="md:flex">
             <div className="flex-1 p-10">
                 <h1 className="md:w-[450px] text-2xl md:text-5xl font-bold text-[#050038]">Take ideas from <br /> better to best</h1>
                 <p className='w-[400px] mt-4 md:mt-10'>Miro is your team is visual platform to connect, collaborate, and create — together.</p>

@@ -16,30 +16,30 @@ const WayYouWork = () => {
     return (
         <div className='md:mt-32 text-[#050038]'>
             <h1 className='text-3xl font-bold mb-2 md:mb-4'>Built for the way you work</h1>
-            <ul className="flex justify-between px-4">
+            <ul className="md:flex flex-wrap justify-between px-4">
                 <li
-                    className={`button  ${activeItem === 1 ? 'active px-10 py-4' : ''}`}
+                    className={`button  ${activeItem === 1 ? 'active px-5 py-2 md:px-10 md:py-4' : ''}`}
                     onMouseEnter={() => handleMouseEnter(1)}
                     onMouseLeave={handleMouseLeave}
                 >
                     Brainstorming
                 </li>
                 <li
-                    className={`button ${activeItem === 2 ? 'active px-10 py-4' : ''}`}
+                    className={`button ${activeItem === 2 ? 'active md:px-10 md:py-4' : ''}`}
                     onMouseEnter={() => handleMouseEnter(2)}
                     onMouseLeave={handleMouseLeave}
                 >
                     Diagramming
                 </li>
                 <li
-                    className={`button ${activeItem === 3 ? 'active px-10 py-4' : ''}`}
+                    className={`button ${activeItem === 3 ? 'active md:px-10 md:py-4' : ''}`}
                     onMouseEnter={() => handleMouseEnter(3)}
                     onMouseLeave={handleMouseLeave}
                 >
                     Meetings & Workshops
                 </li>
                 <li
-                    className={`button ${activeItem === 4 ? 'active px-10 py-4' : ''}`}
+                    className={`button ${activeItem === 4 ? 'active md:px-10 md:py-4' : ''}`}
                     onMouseEnter={() => handleMouseEnter(4)}
                     onMouseLeave={handleMouseLeave}
                 >

@@ -6,9 +6,9 @@ const WeWork = () => {
             <div className='  relative'>
                 <img className="h-[450px] w-full object-cover rounded-2xl" src={weWorkImg} alt="" />
             </div>
-            <div className='absolute md:-mt-64 md:ml-[750px] text-center'>
-                <h1 className='text-[#050038] text-3xl font-bold md:mb-2'>The Ways We Work</h1>
-                <p className='text-xl text-[#050038] md:mb-2'>
+            <div className='absolute -mt-72 ml-28 md:-mt-64 md:ml-[750px] text-center'>
+                <h1 className='text-[#050038] text-xl md:text-3xl font-bold md:mb-2'>The Ways We Work</h1>
+                <p className='text-base md:text-xl text-[#050038] md:mb-2'>
                     How has our relationship with work changed?
                 </p>
                 <button className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium  transition duration-300 ease-out border-2 bg-[#4262FF] text-white rounded-full shadow-md group">

@@ -22,7 +22,7 @@ const BuiltForAllKinds = () => {
     return (
         <div className='md:mt-32 text-[#050038]'>
             <h1 className='text-3xl font-bold mb-2 md:mb-4'>Built for the way you work</h1>
-            <ul className="flex justify-between px-4">
+            <ul className="md:flex flex-wrap  justify-between px-4">
                 <li
                     className={`button  ${activeItem === 1 ? 'active px-10 py-4' : ''}`}
                     onMouseEnter={() => handleMouseEnter(1)}

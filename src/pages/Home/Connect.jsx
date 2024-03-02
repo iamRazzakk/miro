@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward } from 'react-icons/io';
 import bgImg from '../../assets/bg-img.jpeg'
 const Connect = () => {
     return (
-        <div className="flex gap-4 md:mt-32">
+        <div className="md:flex gap-4 md:mt-32">
             <div className='flex-1 p-6'>
                 <img className='h-96 w-full object-cover rounded-2xl' src={bgImg} alt="" />
             </div>
