@@ -1,5 +1,7 @@
 import Collaborate from "./Collaborate";
+import Connect from "./Connect";
 import TrustedUser from "./TrustedUser";
+import WeWork from "./WeWork";
 import WorkTogether from "./WorkTogether";
 
 
@@ -12,6 +14,8 @@ const Home = () => {
             <div className="md:w-[1020px]">
                 <WorkTogether></WorkTogether>
             </div>
+            <Connect></Connect>
+            <WeWork></WeWork>
         </div>
 
     );
