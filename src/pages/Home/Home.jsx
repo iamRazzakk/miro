@@ -5,6 +5,7 @@ import TrustedUser from "./TrustedUser";
 import WayYouWork from "./WayYouWork";
 import WeWork from "./WeWork";
 import WorkTogether from "./WorkTogether";
+import WorldBestTeam from "./WorldBestTeam";
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
             <WeWork></WeWork>
             <WayYouWork></WayYouWork>
             <BuiltForAllKinds></BuiltForAllKinds>
+            <WorldBestTeam></WorldBestTeam>
         </div>
 
     );

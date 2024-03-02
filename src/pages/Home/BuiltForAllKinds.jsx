@@ -6,6 +6,9 @@ import goldIcons from '../../assets/goldIcon.png'
 import xdImg from '../../assets/xd.png'
 import figmaImg from '../../assets/figma.png'
 import noationImg from '../../assets/noation.png'
+
+import { IoCheckmarkOutline } from "react-icons/io5";
+
 const BuiltForAllKinds = () => {
     const [activeItem, setActiveItem] = useState(1);
 
@@ -71,19 +74,30 @@ const BuiltForAllKinds = () => {
                 </li>
             </ul>
             <div className='md:mt-4 md:flex justify-center gap-4'>
-                <div className='flex-1 p-10'>
-                    <h3>Build low-fi wireframes</h3>
-                    <h3>Involve stakeholders in the design process</h3>
-                    <h3>Run engaging design Workshops</h3>
+                <div className='flex-1 space-y-4 p-10'>
+                    <div className="flex items-center gap-4">
+                        <IoCheckmarkOutline></IoCheckmarkOutline>
+                        <h3>Build low-fi wireframes</h3>
+                    </div>
+                    <div className="flex items-center gap-4">
+                        <IoCheckmarkOutline></IoCheckmarkOutline>
+                        <h3>Involve stakeholders in the design process</h3>
+                    </div>
+                    <div className="flex items-center gap-4">
+                        <IoCheckmarkOutline></IoCheckmarkOutline>
+                        <h3>Run engaging design Workshops</h3>
+                    </div>
                     <div className="flex text-xl items-center "><button className="text-[#4262FF] underline">Learn more</button>
                         <span><IoIosArrowRoundForward></IoIosArrowRoundForward></span>
                     </div>
-                    <h3>Integrate your favorite tools</h3>
-                    <div className="grid grid-cols-4 md:mt-6 ">
-                        <img className="w-12 h-1w-12" src={goldIcons} alt="" />
-                        <img className="w-12 h-1w-12" src={xdImg} alt="" />
-                        <img className="w-12 h-1w-12" src={figmaImg} alt="" />
-                        <img className="w-12 h-1w-12" src={noationImg} alt="" />
+                    <div className="mt-6">
+                        <h3>Integrate your favorite tools</h3>
+                        <div className="grid grid-cols-4 md:mt-4 ">
+                            <img className="w-12 h-1w-12" src={goldIcons} alt="" />
+                            <img className="w-12 h-1w-12" src={xdImg} alt="" />
+                            <img className="w-12 h-1w-12" src={figmaImg} alt="" />
+                            <img className="w-12 h-1w-12" src={noationImg} alt="" />
+                        </div>
                     </div>
                 </div>
                 <div className='flex-1'>
