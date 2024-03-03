@@ -7,7 +7,7 @@ const Header = () => {
         <div className="md:flex">
             <div className="flex-1 p-10">
                 <h1 className="md:w-[450px] text-2xl md:text-5xl font-bold text-[#050038]">Take ideas from <br /> better to best</h1>
-                <p className='w-[400px] mt-4 md:mt-10'>Miro is your team is visual platform to connect, collaborate, and create — together.</p>
+                <p className='md:w-[400px] flex-wrap mt-4 md:mt-10'>Miro is your team is visual platform to connect, collaborate, and create — together.</p>
                 <input className="md:w-[450px] mt-4 md:mt-6 px-6 py-2 border border-gray-400 rounded-3xl" type="email" placeholder="Enter your Email" name="" id="" /> <br />
                 <button className="md:w-[450px] mt-2 relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out border-2 bg-[#4262FF] text-white rounded-full shadow-md group">
                     <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-[#4262FF]  group-hover:translate-x-0 ease">
@@ -36,15 +36,15 @@ const Header = () => {
                                 <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                             </svg>
                         </div>
-                        <h3 className='text-xl'>Based on 5149+ reviews:</h3>
+                        <h3 className='text-xl'>Based on 5149+ reviews</h3>
                     </div>
                     <div className='flex-1'>
-                        <img src={Image4} alt="" />
+                        <img className='' src={Image4} alt="" />
                     </div>
                 </div>
             </div>
             <div className="flex-1 p">
-                <img className='shadow-lg' src={HeaderImage} alt="" />
+                <img className='shadow-lg w-[350px] md:w-full' src={HeaderImage} alt="" />
             </div>
         </div>
     );

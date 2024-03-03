@@ -7,9 +7,9 @@ const Connect = () => {
             <div className='flex-1 p-6'>
                 <img className='h-96 w-full object-cover rounded-2xl' src={bgImg} alt="" />
             </div>
-            <div className='flex-1 p-6 mt-2 md:mt-14 md:ml-10'>
-                <h1 className='md:w-[200px] text-4xl font-bold text-[#050038]'>Connect
-                    your tools,
+            <div className='text-center md:text-left flex-1 p-6 mt-2 md:mt-14 md:ml-10'>
+                <h1 className=' text-2xl md:text-4xl font-bold text-[#050038]'>Connect <br />
+                    your tools,<br />
                     close your tabs</h1>
                 <p className='text-xl md:w-[450px] text-[#050038] mt-4 md:mt-6 mb-4 md:mb-6'>
                     Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love.
