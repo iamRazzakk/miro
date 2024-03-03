@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Home from "../pages/Home/Home";
 import Singup from "../components/Singup/Singup";
 import Error from "../components/Error";
+import Singin from "../components/Singup/Singin";
 
 
 const myCreatedRouter = createBrowserRouter([
@@ -18,6 +19,10 @@ const myCreatedRouter = createBrowserRouter([
             {
                 path: '/singup',
                 element: <Singup></Singup>
+            },
+            {
+                path:'/login',
+                element:<Singin></Singin>
             }
         ]
     }
