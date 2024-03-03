@@ -20,9 +20,9 @@ const BuiltForAllKinds = () => {
         setActiveItem(1);
     };
     return (
-        <div className='md:mt-32 text-[#050038]'>
-            <h1 className='text-3xl font-bold mb-2 md:mb-4'>Built for the way you work</h1>
-            <ul className="md:flex flex-wrap  justify-between px-4">
+        <div className='px-4 lg:px-6 lg:mt-32 text-[#050038]'>
+            <h1 className='text-3xl text-center lg:text-left font-bold mb-2 lg:mb-4'>Built for the way you work</h1>
+            <ul className="lg:flex flex-wrap  justify-between px-4">
                 <li
                     className={`button  ${activeItem === 1 ? 'active px-10 py-4' : ''}`}
                     onMouseEnter={() => handleMouseEnter(1)}
@@ -73,7 +73,7 @@ const BuiltForAllKinds = () => {
                     Sales
                 </li>
             </ul>
-            <div className='md:mt-4 md:flex justify-center gap-4'>
+            <div className='lg:mt-4 lg:flex justify-center gap-4'>
                 <div className='flex-1 space-y-4 p-10'>
                     <div className="flex items-center gap-4">
                         <IoCheckmarkOutline></IoCheckmarkOutline>
@@ -92,7 +92,7 @@ const BuiltForAllKinds = () => {
                     </div>
                     <div className="mt-6">
                         <h3>Integrate your favorite tools</h3>
-                        <div className="grid grid-cols-4 md:mt-4 ">
+                        <div className="grid grid-cols-4 lg:mt-4 ">
                             <img className="w-12 h-1w-12" src={goldIcons} alt="" />
                             <img className="w-12 h-1w-12" src={xdImg} alt="" />
                             <img className="w-12 h-1w-12" src={figmaImg} alt="" />

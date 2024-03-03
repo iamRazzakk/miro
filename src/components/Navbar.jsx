@@ -11,33 +11,32 @@ const Navbar = () => {
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     };
-
     return (
-        <div className="flex flex-col md:flex-row md:mb-6">
+        <div className="flex flex-col lg:flex-row lg:mb-6 lg:px-4">
             {/* Hamburger menu for mobile */}
-            <div className="flex items-center justify-end mr-20 md:hidden">
+            <div className="flex items-center justify-end mr-14 lg:hidden">
                 <MdMenu className="text-2xl" onClick={toggleMenu} />
             </div>
             {/* Navbar items */}
-            <div className={`md:flex md:flex-1 md:items-center ${showMenu ? "flex flex-col md:flex-row-reverse" : "hidden"}`}>
-                <ul className="flex flex-col md:flex-row gap-4">
+            <div className={`lg:flex lg:flex-1 lg:items-center ${showMenu ? "flex flex-col lg:flex-row-reverse" : "hidden"}`}>
+                <ul className="flex flex-col lg:flex-row gap-4">
                     <Link to={'/'}>
                         <li className="text-xl font-bold">Miro</li>
                     </Link>
-                    <li className="flex items-center text-xl">
+                    <li className="flex items-center text-xl cursor-pointer">
                         Product  <MdKeyboardArrowDown />
                     </li>
-                    <li className="flex items-center text-xl">Solutions <MdKeyboardArrowDown /></li>
-                    <li className="flex items-center text-xl">Resources <MdKeyboardArrowDown /></li>
-                    <li className="flex items-center text-xl">Enterprise <MdKeyboardArrowDown /></li>
-                    <li className="flex items-center text-xl">Pricing <MdKeyboardArrowDown /></li>
+                    <li className="flex items-center text-xl cursor-pointer">Solutions <MdKeyboardArrowDown /></li>
+                    <li className="flex items-center text-xl cursor-pointer">Resources <MdKeyboardArrowDown /></li>
+                    <li className="flex items-center text-xl cursor-pointer">Enterprise <MdKeyboardArrowDown /></li>
+                    <li className="flex items-center text-xl cursor-pointer">Pricing <MdKeyboardArrowDown /></li>
                 </ul>
             </div>
-            <div className={`md:flex md:flex-1 md:items-end md:justify-end ${showMenu ? "flex flex-col md:flex-row-reverse" : "hidden"}`}>
-                <ul className={`flex flex-col md:flex-row gap-4 ${showMenu ? 'justify-end' : 'justify-start'}`}>
-                    <li className="flex items-center text-xl gap-2 justify-center"><TbWorld />EN</li>
-                    <li className="flex items-center text-xl">Contact Sales</li>
-                    <li className="flex items-center text-xl">
+            <div className={`lg:flex lg:flex-1 lg:items-end lg:justify-end ${showMenu ? "flex flex-col lg:flex-row-reverse" : "hidden"}`}>
+                <ul className={`flex flex-col lg:flex-row gap-4 ${showMenu ? 'justify-end' : 'justify-start'}`}>
+                    <li className="flex items-center text-xl cursor-pointer gap-2 justify-center"><TbWorld />EN</li>
+                    <li className="flex items-center text-xl cursor-pointer">Contact Sales</li>
+                    <li className="flex items-center text-xl cursor-pointer">
                         <Link to='/login'>
                             <button>
                                 Login

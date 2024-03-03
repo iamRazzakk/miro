@@ -1,21 +1,24 @@
 
 import HeaderImage from '../../assets/image5.png';
 import Image4 from '../../assets/image4.png'
+import { Link } from 'react-router-dom';
 const Header = () => {
 
     return (
-        <div className="md:flex">
+        <div className="lg:flex px-4 lg:px-6">
             <div className="flex-1 p-10">
-                <h1 className="md:w-[450px] text-2xl md:text-5xl font-bold text-[#050038]">Take ideas from <br /> better to best</h1>
-                <p className='md:w-[400px] flex-wrap mt-4 md:mt-10'>Miro is your team is visual platform to connect, collaborate, and create — together.</p>
-                <input className="md:w-[450px] mt-4 md:mt-6 px-6 py-2 border border-gray-400 rounded-3xl" type="email" placeholder="Enter your Email" name="" id="" /> <br />
-                <button className="md:w-[450px] mt-2 relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out border-2 bg-[#4262FF] text-white rounded-full shadow-md group">
+                <h1 className="lg:w-[450px] text-2xl lg:text-5xl font-bold text-[#050038]">Take ideas from <br /> better to best</h1>
+                <p className='lg:w-[400px] flex-wrap mt-4 lg:mt-10'>Miro is your team is visual platform to connect, collaborate, and create — together.</p>
+                <input className="lg:w-[450px] mt-4 lg:mt-6 px-6 py-2 border border-gray-400 rounded-3xl" type="email" placeholder="Enter your Email" name="" id="" /> <br />
+                <Link to='/singup'>
+                <button className="lg:w-[450px] mt-2 relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out border-2 bg-[#4262FF] text-white rounded-full shadow-md group">
                     <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-[#4262FF]  group-hover:translate-x-0 ease">
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </span>
                     <span className="absolute flex items-center justify-center w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease">Sing up free</span>
                     <span className="relative invisible">Sing up free</span>
                 </button>
+                </Link>
                 <p>Collaborate with your team within minutes</p>
                 <div className='flex items-center justify-center mt-4 bg-[#f5f5f7]'>
                     <div className='flex-1'>
@@ -44,7 +47,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="flex-1 p">
-                <img className='shadow-lg w-[350px] md:w-full' src={HeaderImage} alt="" />
+                <img className='shadow-lg w-[350px] lg:w-full' src={HeaderImage} alt="" />
             </div>
         </div>
     );

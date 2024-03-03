@@ -58,9 +58,9 @@ const Singup = () => {
     // })
 
     return (
-        <div className="md:w-1/2 md:mx-auto bg-blue-200 p-4 m-4 rounded-lg shadow-lg">
+        <div className="lg:w-1/2 lg:mx-auto bg-blue-200 p-4 m-4 rounded-lg shadow-lg">
             <form onSubmit={handleAddedUser} className="card-body">
-                <h1 className="text-3xl font-bold md:mb-6 mb-4 text-center">
+                <h1 className="text-3xl font-bold lg:mb-6 mb-4 text-center">
                     Sing up Form
                 </h1>
                 <div className="ml-4 mr-4">
@@ -82,7 +82,7 @@ const Singup = () => {
                     <input type="password" name="password" placeholder="Enter your password" className="input input-bordered bg-white text-black  py-4 px-6 rounded-full mt-4 w-full" required />
                 </div>
                 <div className="ml-4 mr-4 mt-6 flex justify-center items-center ">
-                    <button className="bg-[#3d90e9] text-white py-3 px-8 rounded-full w-full md:w-auto">Sing up</button>
+                    <button className="bg-[#3d90e9] text-white py-3 px-8 rounded-full w-full lg:w-auto">Sing up</button>
                 </div>
                 <h1 className="text-center font-bold">Already have an account? <Link className="text-blue-500" to="/login">Login</Link></h1>
                 {/* <hr className="bg-black my-4" />
