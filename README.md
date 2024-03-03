@@ -1,6 +1,6 @@
 # Miro
 
-Welcome to My React Project! This project does X, Y, and Z.
+Welcome to My React Project!
 
 ## How to Clone
 
@@ -8,10 +8,9 @@ To clone this repository to your local machine, follow these steps:
 
 1. Open your terminal.
 2. Navigate to the directory where you want to clone the repository.
-3. Run the following command:
 
 
-Replace `https://github.com/iamRazzakk/miro` with the actual URL of your repository.
+`https://github.com/iamRazzakk/miro` For clone.
 
 
 ## How to Run
